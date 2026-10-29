@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio 3 - Flujo de trabajo con Git</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Ejercicio 3</h1>
+    <p class="subtitulo">Flujo de trabajo basico con Git y GitHub</p>
+  </header>
+
+  <main>
+
+    <section class="tarjeta">
+      <h2>Datos del estudiante</h2>
+      <ul>
+        <li><strong>Nombre:</strong> Alexander Ccolque Quispe</li>
+        <li><strong>Institucion:</strong> SENATI - Arequipa/Puno</li>
+        <li><strong>Carrera:</strong> Ing. de Software con IA</li>
+      </ul>
+    </section>
+
+    <section class="tarjeta">
+      <h2>El ciclo de Git</h2>
+      <ol class="ciclo">
+        <li>
+          <span class="paso">1</span>
+          <div>
+            <h3>Modificar</h3>
+            <p>El cambio existe solo en el directorio de trabajo.</p>
+          </div>
+        </li>
+        <li>
+          <span class="paso">2</span>
+          <div>
+            <h3>git status</h3>
+            <p>Verifica que Git detecto el cambio. No modifica nada.</p>
+          </div>
+        </li>
+        <li>
+          <span class="paso">3</span>
+          <div>
+            <h3>git add</h3>
+            <p>Mueve el cambio al area de preparacion (staging).</p>
+          </div>
+        </li>
+        <li>
+          <span class="paso">4</span>
+          <div>
+            <h3>git commit</h3>
+            <p>Guarda una instantanea en el historial local.</p>
+          </div>
+        </li>
+        <li>
+          <span class="paso">5</span>
+          <div>
+            <h3>git push</h3>
+            <p>Envia los commits al repositorio remoto en GitHub.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section class="tarjeta destacado">
+      <h2>Concepto clave</h2>
+      <p>
+        El <strong>commit</strong> es local y el <strong>push</strong> es remoto.
+        Se pueden hacer varios commits sin conexion a internet y subirlos
+        todos juntos con un solo push.
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Repositorio: github.com/Alex7w77/EJERCICIO-3</p>
+  </footer>
+
+</body>
+</html>
