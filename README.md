@@ -34,3 +34,6 @@ ejercicio-3/
 ## Repositorio remoto
 
 https://github.com/Alex7w77/EJERCICIO-3
+xsx
+
+Demostracion del ciclo de Git - 05/11/2026 
